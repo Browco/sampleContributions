@@ -1,6 +1,4 @@
 from argparse import ArgumentParser
-#local test command : 
-#srun python ./scripts/cat_fg.py -f1 ../../outputs_fusion/190828_M02317_0457_000000000-CBDCL/output_GFlists/output_arriba_umi_fusions/CQI-seracare-ARNM-1_S7_L001/list_FG_ARRIBA.txt -f2 ../../outputs_fusion/190828_M02317_0457_000000000-CBDCL/output_GFlists/output_star_fusion_umi/CQI-seracare-ARNM-1_S7_L001/list_FG_STARFUSION.txt -f3 ../../outputs_fusion/190828_M02317_0457_000000000-CBDCL/output_GFlists/output_squid_umi/CQI-seracare-ARNM-1_S7_L001/list_FG_SQUID.txt  -o test.txt
 
 def fusion_genes_and_tools(fileArriba, fileSF, fileSQUID, filename):
     '''
