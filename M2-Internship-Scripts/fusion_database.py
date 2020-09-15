@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+__description__ = \
+"""
+This script was created to extract, compare and write fusion genes \
+from the FusionHub database in order to compare these fusion genes \
+to the predicted fusion genes. 
+"""
+__author__ = "Coralie Capron"
+__date__ = "07.2020"
+
 import os
 import csv
 from argparse import ArgumentParser

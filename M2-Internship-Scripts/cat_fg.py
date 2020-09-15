@@ -1,3 +1,14 @@
+#!/usr/bin/env python3
+
+__description__ = \
+"""
+This script was created in the purpose of retrieving \
+predicted fusion genes from diverse tools and to merge them \
+into one final fusion file.
+"""
+__author__ = "Coralie Capron"
+__date__ = "04.2020"
+
 from argparse import ArgumentParser
 
 def fusion_genes_and_tools(fileArriba, fileSF, fileSQUID, filename):

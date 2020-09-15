@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+__description__ = \
+"""
+This script was created to extract the fusion genes \
+names from each prediction tool file according to each file caracteristics .
+"""
+__author__ = "Coralie Capron"
+__date__ = "05.2020"
 
 from argparse import ArgumentParser
 #import json  # read FG Pizzly prediction file

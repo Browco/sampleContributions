@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
+__description__ = \
+"""
+This script was created in the purpose of calculating \
+some metrics as FP/TP, sensitivity, etc.
+"""
+__author__ = "Coralie Capron"
+__date__ = "04.2020"
+
 from extract_geneFusions import ParseFusionFile
 import csv
 from argparse import ArgumentParser
